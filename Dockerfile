@@ -8,7 +8,7 @@ MAINTAINER <lok pavan> 9999999999
 RUN yum install httpd -y
 
 #Copy the code from the repo to container
-COPY sample.html /var/www/html/sample.html
+COPY sample.html /var/www/html/index.html
 
 #Open the port to the outside world
 EXPOSE 80
